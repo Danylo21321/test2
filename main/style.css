@@ -1,0 +1,243 @@
+.container{width: 1600px;background-color: #f2f2f2;margin: 0 auto}
+
+body{background-color: gray}
+
+.card-place{
+    max-width: 500px;
+    margin-right: 20%;
+    float: right;
+}
+
+/*.cards{max-width: 500px; max-height: 400px;margin: 30px;*/
+
+.cards{max-width: 500px; max-height: 700px;margin: 30px}
+
+.main-text{max-width: 500px;
+    /*margin: 30px 60px 30px 30px;*/
+    margin-left: 13%;
+}
+
+.image-main{max-width: 500px}
+
+.center{text-align: center;background-color: white}
+
+.header-button:hover{color: red;}
+
+.news{
+    background-color: red;
+    width: 74px;
+    height: 37px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 40px;
+}
+
+.news:hover{color: black}
+
+.red-color{color: red}
+
+.white-color{color: white}
+
+.margin-0{margin: 0}
+
+.margin-40px{margin: 40px}
+
+.background{background-color: white}
+
+.margin-5px{margin: 5px}
+
+.main-image1{width: 500px;height: 400px}
+
+.inline {display: inline;}
+
+.header-button{
+   background-color: white;
+    border: none;
+    margin: 40px;
+    color: silver;
+}
+
+.footer{
+    display: flex;
+    width: 100%;
+    min-height: 600px;
+    background-color: black;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.card-button{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+}
+
+.header-text{color: slategrey;opacity: 0.5}
+
+.contact:visited{
+    color: red;
+}
+
+.contact:link{
+    color: slategrey;
+}
+
+.main-image{width: 300px;height: 300px}
+
+.line{width: 329px; height: 2px; background-color: white;margin: 15px}
+
+a:hover{
+    color: red;
+}
+
+a:visited{
+    color: silver;
+}
+
+a:link{
+    color: darkgoldenrod;
+}
+
+@font-face {
+    font-family: "alpha_echo";
+    src: url("alpha_echo.ttf") format("truetype");
+}
+h1{
+    font-family: "alpha_echo", serif}
+
+/*conteiner*/
+@media (max-width: 700px) {
+    .container{
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container{
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 400px) {
+    .container{
+        max-width: none;
+    }
+}
+/*conteiner*/
+
+/*card-place*/
+@media (max-width: 500px) {
+    .card-place{
+        max-width: 300px;
+        /*margin-left: 500px;*/
+    }
+}
+
+@media (max-width: 300px) {
+    .card-place{
+        max-width: 200px;
+        /*margin-left: 20%;*/
+    }
+}
+
+@media (max-width: 200px) {
+    .card-place{
+        max-width: none;
+        /*margin-left: 500px;*/
+    }
+}
+
+/*card-place*/
+
+/*card*/
+
+@media (max-width: 500px) {
+    .cards{
+        max-width: 250px;
+        background-color: #91836f;
+        margin-left: 25%;
+
+    }
+}
+
+@media (max-width: 250px) {
+    .cards{
+        max-width: 200px;
+        background-color: #91836f;
+        margin-left: 25%;
+    }
+}
+
+@media (max-width: 200px) {
+    .cards{
+        max-width: none;
+        background-color: #91836f;
+        margin-left: 25%;
+    }
+}
+
+/*card*/
+
+/*main-text*/
+@media (max-width: 500px) {
+    .main-text{
+        max-width: 250px;
+        background-color: #91836f;
+    }
+}
+
+@media (max-width: 250px) {
+    .main-text{
+        max-width: 200px;
+        background-color: #91836f;
+    }
+}
+
+@media (max-width: 200px) {
+    .main-text{
+        max-width: none;
+        background-color: #91836f;
+    }
+}
+/*main-text*/
+
+/*image-main*/
+@media (max-width: 500px) {
+    .image-main{
+        max-width: 250px;
+        max-height: 250px;
+    }
+}
+
+@media (max-width: 250px) {
+    .image-main{
+        max-width: 200px;
+        max-height: 100px;
+    }
+}
+/*image-main*/
+
+/*line*/
+
+@media (max-width: 329px) {
+    .line{
+        max-width: 0;
+    }
+}
+
+/*line*/
+
+/*footer*/
+
+@media (min-height: 600px) {
+    .footer{
+        min-height: 700px;
+    }
+}
+
+
+/*footer*/
