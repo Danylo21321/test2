@@ -4,8 +4,6 @@
     margin: 0 auto
 }
 
-body{background-color: gray}
-
 .card-place{
     max-width: 500px;
     margin-right: 20%;
@@ -13,6 +11,11 @@ body{background-color: gray}
 }
 
 /*.cards{max-width: 500px; max-height: 400px;margin: 30px;*/
+
+.header{
+    display: flex;
+    justify-content: center;
+}
 
 .cards{
     max-width: 500px;
@@ -23,6 +26,7 @@ body{background-color: gray}
 .main-text{
     max-width: 500px;
     margin-left: 13%;
+    padding: 10px;
 }
 
 .image-main{max-width: 500px}
@@ -37,16 +41,19 @@ body{background-color: gray}
 .news{
     background-color: red;
     width: 74px;
-    height: 37px;
+    /*height: 37px;*/
     color: white;
     border: none;
     border-radius: 5px;
     margin: 40px;
+
 }
 
 .news:hover{color: black}
 
-.red-color{color: red}
+.red-color{color: red;}
+
+.red-color:hover{text-decoration: none;}
 
 .white-color{color: white}
 
@@ -76,6 +83,7 @@ body{background-color: gray}
     background-color: black;
     color: white;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .card-button{
@@ -149,24 +157,57 @@ h1{
 /*conteiner*/
 
 /*card-place*/
+
+@media (max-width: 1200px) {
+    .card-place{
+        max-width: 700px;
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 900px) {
+    .card-place{
+        max-width: 700px;
+        display: flex;
+        flex-direction: row;
+        width: 600px;
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 700px) {
+    .card-place{
+        max-width: 500px;
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+    }
+}
+
 @media (max-width: 500px) {
     .card-place{
         max-width: 300px;
-        /*margin-left: 500px;*/
+        display: flex;
+        flex-direction: column;
     }
 }
 
 @media (max-width: 300px) {
     .card-place{
         max-width: 200px;
-        /*margin-left: 20%;*/
+        display: flex;
+        flex-direction: column;
     }
 }
 
 @media (max-width: 200px) {
     .card-place{
         max-width: none;
-        /*margin-left: 500px;*/
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -205,21 +246,18 @@ h1{
 @media (max-width: 500px) {
     .main-text{
         max-width: 250px;
-        background-color: #91836f;
     }
 }
 
 @media (max-width: 250px) {
     .main-text{
         max-width: 200px;
-        background-color: #91836f;
     }
 }
 
 @media (max-width: 200px) {
     .main-text{
         max-width: none;
-        background-color: #91836f;
     }
 }
 /*main-text*/
@@ -260,3 +298,17 @@ h1{
 
 
 /*footer*/
+
+/*header*/
+
+@media (max-width: 801px) {
+    .header{align-content: center}
+}
+
+@media (max-width: 800px) {
+    .header{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+}
+/*header*/
