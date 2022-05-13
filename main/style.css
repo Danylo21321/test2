@@ -1,4 +1,8 @@
-.container{width: 1600px;background-color: #f2f2f2;margin: 0 auto}
+.container{
+    width: 1600px;
+    background-color: #f2f2f2;
+    margin: 0 auto
+}
 
 body{background-color: gray}
 
@@ -10,16 +14,23 @@ body{background-color: gray}
 
 /*.cards{max-width: 500px; max-height: 400px;margin: 30px;*/
 
-.cards{max-width: 500px; max-height: 700px;margin: 30px}
+.cards{
+    max-width: 500px;
+    max-height: 700px;
+    margin: 30px
+}
 
-.main-text{max-width: 500px;
-    /*margin: 30px 60px 30px 30px;*/
+.main-text{
+    max-width: 500px;
     margin-left: 13%;
 }
 
 .image-main{max-width: 500px}
 
-.center{text-align: center;background-color: white}
+.center{
+    text-align: center;
+    background-color: white
+}
 
 .header-button:hover{color: red;}
 
@@ -76,7 +87,8 @@ body{background-color: gray}
     border-radius: 15px;
 }
 
-.header-text{color: slategrey;opacity: 0.5}
+.header-text{color: slategrey;
+    opacity: 0.5}
 
 .contact:visited{
     color: red;
@@ -86,9 +98,16 @@ body{background-color: gray}
     color: slategrey;
 }
 
-.main-image{width: 300px;height: 300px}
+.main-image{
+    width: 300px;
+    height: 300px
+}
 
-.line{width: 329px; height: 2px; background-color: white;margin: 15px}
+.line{width: 329px;
+    height: 2px;
+    background-color: white;
+    margin: 15px
+}
 
 a:hover{
     color: red;
